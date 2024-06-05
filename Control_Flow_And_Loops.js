@@ -194,7 +194,6 @@
 // }
 
 // Practice: 04
-// prompt ("Please Input a number")
 // let firstname = "Fahad";
 // if (false == 0) {
 //   console.log(true);
@@ -206,6 +205,9 @@
 // } else {
 //   console.log("ali");
 // }
+
+// prompt ("Please Input a number")
+
 
 // Practice: 05
 // const isLoggedIn = false;
@@ -305,14 +307,14 @@
 // }
 // console.log("All done");
 
+// Practice: 14
 // const n = 7;
-
 // for (let i = 1; i <= 10; i++) {
 //   console.log(n + " * " + i + " = " + n * i);
 // }
 
+// Practice: 15
 // let i = 1;
-
 // while (i <= 10) {
 //   console.log(i);
 //   i++;
