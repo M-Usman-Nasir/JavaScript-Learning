@@ -146,16 +146,29 @@
 // This process continues until i = 20.
 // To find the final value of total, we can sum all the integers from 1 to 20 and then add this sum to the initial value of total.
 
+// For Loop Exercise: 3
+// for (let i = 20; i >= 1; i--) {
+//         console.log(i);
+//       }
+
+// Print all even numbers from 1 to 40 but not the number who are divisible by 5 using a for loop
+// For Loop Exercise: 4
+// for (let i = 2; i <= 40; i += 2) {
+//         if (i % 5 !== 0) {
+//           console.log(i);
+//         }
+//       }
+
 // Practice: 3
 // let i;
 // for (i = 1; i <= 40; i++) {
-//     if (i % 2 === 0) {
+//     if (i % 3 === 5) {
 //         break;
 //     }
 // }
 // console.log(i); // Logs 2, as the loop breaks on the first even number
 
-// Practice: 10
+// For Loop Exercise: 1
 // for (let i = 1; i <= 100; i++) {
 //     if (i === 50) {
 //         console.log ("half way there!");
@@ -168,13 +181,10 @@
 // console.log("All done!");
 
 // Practice: 11
-
 // const n = 4
-
 // for (let i =1; i<=10; i++) {
 //     console.log(n + " * " + i + " =" + n * i);
 // }
-
 
 // Practice: 12
 
