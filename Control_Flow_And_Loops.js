@@ -180,43 +180,36 @@
 // }
 // console.log("All done!");
 
-// Practice: 11
+// For Loop Exercise: 2
 // const n = 4
 // for (let i =1; i<=10; i++) {
-//     console.log(n + " * " + i + " =" + n * i);
+//     console.log(n + " * " + i + " = " + n * i);
 // }
 
-// Practice: 12
-
+// While Loop Exercise: 01
 // let i = 1;
-
 // while (i <= 10) {
 //     console.log(i);
 //     i++;
 // }
 
-
-// Practice: 13
-
+// Practice: 04
 // prompt ("Please Input a number")
-
-// let name = "Fahad";
-
+// let firstname = "Fahad";
 // if (false == 0) {
 //   console.log(true);
 // } else {
 //   console.log(false);
 // }
-
-// if (name !== "Ali") {
+// if (firstname !== "Ali") {
 //   console.log("we did not find any name");
 // } else {
 //   console.log("ali");
 // }
 
+// Practice: 05
 // const isLoggedIn = false;
 // const isProSubscriber = false;
-
 // if (!isLoggedIn) {
 //   console.log("please login first");
 // } else if (isLoggedIn && !isProSubscriber) {
@@ -225,20 +218,15 @@
 //   console.log("thanks for subscribing");
 // }
 
+// Practice: 06
 // const totalMarks = 300;
-
 // const englishMarks = 75;
 // const mathsMarks = 92;
 // const physicsMarks = 80;
-
 // const passingPercentage = 70;
-
 // const obtainedMarks = englishMarks + mathsMarks + physicsMarks;
-
 // const obtainedPercentage = (obtainedMarks / totalMarks) * 100;
-
 // console.log("obtainedPercentage", obtainedPercentage);
-
 // if (obtainedPercentage >= 80 && obtainedPercentage < 90) {
 //   console.log("B grade");
 // } else if (obtainedPercentage >= 90) {
@@ -251,55 +239,57 @@
 //   console.log("F grade");
 // }
 
+// Practice: 07
 // const trafficLight = "green";
-
 // switch (trafficLight) {
 //   case "green":
 //     console.log("please move");
 //     break;
-
 //   case "red":
 //     console.log("please stop");
 //     break;
-
 //   case "yellow":
 //     console.log("get ready");
 //     break;
-
 //   default:
 //     console.log("not a valid signal");
 // }
 
+// Practice: 08
 // for (let i = 1; i <= 20; i++) {
 //   console.log(i);
 // }
 
+// Practice: 09
 // let total = 0;
-
 // for (let i = 1; i <= 10; i++) {
 //   total = total + i;
 // }
-
 // console.log(total);
 
+// Practice: 10
 // for (let i = 20; i >= 1; i--) {
 //   console.log(i);
 // }
 
+// Practice: 11
 // for (let i = 1; i <= 40; i++) {
 //   if (i === 21) {
 //     break;
 //   }
 //   console.log(i);
-//   //   console.log(i);
-//   //   if (i % 5 === 0) {
-//   //     continue;
-//   //   }
-//   //   if (i % 2 === 0) {
-//   //     console.log(i);
-//   //   }
-// }
 
+// Practice: 12
+// for (let i = 0; i < 10; i++) { // Example loop iterating 10 times
+//         if (i % 5 === 0) {
+//           continue;
+//         }
+//         if (i % 2 === 0) {
+//           console.log(i);
+//         }
+//       }
+
+// Practice: 13
 // for (let i = 1; i <= 100; i++) {
 //   if (i === 50) {
 //     console.log("half way there!");
