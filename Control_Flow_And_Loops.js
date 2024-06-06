@@ -321,18 +321,18 @@
 // }
 
 // While Loop Exercise: 01
-let guess = 0;
-let target = Math.floor(Math.random() * 10) + 1; // Generate general number between 1 to 10
-while (guess !== target) {
-        const guess = parseInt(prompt("Guess a number between 1 and 10:"));
-        if (guess === target) {
-                console.log("You guessed it!");
-        } else if (guess > target) {
-                console.log("Too high! Guess again.");
-        } else {
-                console.log("Too high guess again.");
-        }
-}
+// let guess = 0;
+// let target = Math.floor(Math.random() * 10) + 1; // Generate general number between 1 to 10
+// while (guess !== target) {
+//         const guess = parseInt(prompt("Guess a number between 1 and 10:"));
+//         if (guess === target) {
+//                 console.log("You guessed it!");
+//         } else if (guess > target) {
+//                 console.log("Too high! Guess again.");
+//         } else {
+//                 console.log("Too high guess again.");
+//         }
+// }
 // const prompt = require('prompt-sync')({ sigint: true }); // Optional for handling interrupts
 const prompt = require('prompt-sync')({ sigint: true });
 
