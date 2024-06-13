@@ -1,31 +1,23 @@
 const number = 10;
-
 // console.log(typeof number);
 
 const numToString = number.toString();
 
 const result = 160.66;
-
 const fixedValue = result.toFixed(2);
-
 // console.log(fixedValue);
 
 const preciseValue = result.toPrecision(6);
-
 // console.log(preciseValue);
 
 const round = Math.round(result);
-
 // console.log(round);
 
 const checkNum = isNaN("result");
-
 // console.log(checkNum);
 
 const price = 10000000;
-
 const formatNum = price.toLocaleString("en-IN");
-
 // console.log(formatNum);
 
 function reverseInt(num) {
@@ -35,26 +27,19 @@ function reverseInt(num) {
 }
 
 const result1 = reverseInt(-61);
-
 // console.log(result1);
 
 const revenue = -31;
-
 const absRevenue = Math.abs(revenue);
-
 // console.log(absRevenue);
 
 const num1 = 64.19;
-
 const floorNum = Math.floor(num1);
-
 const ceilNum = Math.ceil(num1);
-
 // console.log(floorNum);
 // console.log(ceilNum);
 
 // const random = Math.floor(Math.random() * 10) + 1;
-
 // console.log(random);
 
 // function getRandomInt(min, max) {
@@ -70,7 +55,6 @@ const ceilNum = Math.ceil(num1);
 // console.log(randomInt);
 
 const colors = ["red", "green", "blue", "white"];
-
 const randomArr = Math.floor(Math.random() * colors.length);
 
 // console.log(colors[randomArr]);
@@ -262,6 +246,6 @@ const increment = makeCounter.increment();
 const decrement = makeCounter.decrement();
 const reset = makeCounter.reset();
 
-console.log("increment", increment);
-console.log("decrement", decrement);
-console.log("reset", reset);
+// console.log("increment", increment);
+// console.log("decrement", decrement);
+// console.log("reset", reset);
