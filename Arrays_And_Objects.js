@@ -41,7 +41,7 @@
         
 // const name1 = 'John'
 // console.log(colors.includes('orange'))
-        
+
 // console.log(Array.isArray(name1))
         
 // Change / Modify Array Element 
@@ -158,16 +158,16 @@
 
 // Object Exercise No. 2
 // const restaurant = {
-//     name1: "Delhi",
+//     name1: "Delhi Restaurant",
 //     address: `$ {Math.floor(Math.random() * 100 ) + 1} Jinnah Ave`,
 //     city: "Karachi",
 //     state: "Sindhi",
 //     zipcode: 7477,
 //     "fullAddress"
 // }
-
 // console.log (restaurant); //
 
+// Modifying Objects
 //     name2: "Taha",
 //     age: 32,
 //     city: "New York",
@@ -175,6 +175,7 @@
 // person ["city"] = "Karachi"
 // delete person.age
 // console.log(person);
+
 // const person = {
 //     name2: "Taha",
 //     age: 32,
@@ -184,7 +185,7 @@
 // delete person.age
 // console.log(person);
 
-
+// Object Exercise: 03 
 // const student = {
 //     name2: "Haris",
 //     age: 23,
@@ -195,7 +196,7 @@
 // student.grade = "A";
 // console.log (student);
 
-
+// Array of Objects
 // const library = [{
 //     title: "Book1",
 //     author: "Ali",
@@ -215,69 +216,18 @@
 // library.push ({title: "system design", author: "Tabish", yearPublished: 2001})
 // console.log (library);
 
-// let x = 10
-// let y = 20
-// let z = x
-// x = y
-// y = z
+// const library = [
+//   { title: 'book 1', author: 'john', yearPublished: 2022 },
+//   { title: 'book 2', author: 'mark', yearPublished: 1999 },
+//   { title: 'book 3', author: 'Sara', yearPublished: 2015 },
+// ]
 
-// let x =[]
-// let y = [10]
-
-// console.log(x == y)
-
-// const firstName = 'John'
-// const lastName = 14
-
-// const fullName = firstName + ' ' + lastName
-
-// console.log(fullName)
-// console.log(+'23')
-
-// console.log('x', x)
-// console.log('y', y)
-
-// const products = ['keyboard', 'mouse', 'keyboard', 'speaker', 'printer']
-
-// const splice = products.splice(2, 1, 'scanner')
-// const slice = products.slice(0, 3)
-
-// console.log('splice', splice)
-// console.log('products', products)
-
-// let uniqueProducts = []
-// for (let i = 0; i < products.length; i++) {
-//   if (!uniqueProducts.includes(products[i])) {
-//     uniqueProducts.push(products[i])
-//   }
-// }
-
-// console.log(uniqueProducts)
-
-// const nums = [13, 9, 15, 10, 15, 80]
-// let largestNum = 0
-
-// for (let i = 0; i < nums.length; i++) {
-//   if (nums[i] > largestNum) {
-//     largestNum = nums[i] //80
-// }
-// }
-
-// console.log('largestNum', largestNum)
-// console.log('sum', sum)
-
-// for (let i = 0; i < nums.length; i++) {
-//   sum = sum + nums[i]
-// }
-
-// console.log('sum', sum)
-
-
-// const colorSetOne = ['red', 'blue']
-// const colorSetTwo = ['green', 'white']
-// const combinedArray = colorSetOne.concat(colorSetTwo)
-// console.log(colorSetOne)
-// console.log(combinedArray)
+// library.push({
+//   title: 'system design',
+//   author: 'zeeshan usmani',
+//   yearPublished: 2020,
+// })
+// console.log(library)
 
 // const product = {
 //   name: 'mouse',
@@ -309,17 +259,3 @@
 
 // delete person.age
 // console.log('person', person)
-
-// const library = [
-//   { title: 'book 1', author: 'john', yearPublished: 2022 },
-//   { title: 'book 2', author: 'mark', yearPublished: 1999 },
-//   { title: 'book 3', author: 'Sara', yearPublished: 2015 },
-// ]
-
-// library.push({
-//   title: 'system design',
-//   author: 'zeeshan usmani',
-//   yearPublished: 2020,
-// })
-
-// console.log(library)
