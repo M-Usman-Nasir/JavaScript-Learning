@@ -27,3 +27,12 @@
 
 // console.log(typeof hasLaptop);
 // console.log(hasLaptop);
+
+// alert ("Assalam U Alaikum!");
+// var myName = "Usman";
+
+// var myName;
+// myName = "Nasir";
+
+var alert = "Assalam U Alaikum Warahma";
+console.log(alert);
