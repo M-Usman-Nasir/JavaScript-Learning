@@ -1,17 +1,38 @@
+// Report Card Assignment
+// let english = 99;
+// let mathematics = 95;
+// let urdu = 90;
+// let totalMarks = 300;
+// let passingPercentage = 70;
+// let studentName = 'Usman';
+// let fatherName = 'Nasir';
+// let rollNumber = 123;
+// let isHePassed = true;
+// let obtainedMarks = english + mathematics + urdu;
+// let obtainedPercentage = (obtainedMarks * 100) / totalMarks; 
+// console.log (obtainedMarks);
+// console.log (isHePassed);
+// console.log (obtainedPercentage);
+
 // alert
+// var studentName = "Usman";
+// var number = 100
+// var hasLaptop = true;
 
-var studentName = "Usman";
+// console.log(typeof studentName);
+// console.log(studentName);
 
-var number = 100
+// console.log(typeof number);
+// console.log(number);
 
-var hasLaptop = true;
+// console.log(typeof hasLaptop);
+// console.log(hasLaptop);
 
-console.log(typeof studentName);
-console.log(studentName);
+// alert ("Assalam U Alaikum!");
+// var myName = "Usman";
 
-console.log(typeof number);
-console.log(number);
+// var myName;
+// myName = "Nasir";
 
-console.log(typeof hasLaptop);
-console.log(hasLaptop);
-
+var alert = "Assalam U Alaikum Warahma";
+console.log(alert);

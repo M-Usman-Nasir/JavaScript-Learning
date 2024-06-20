@@ -146,16 +146,29 @@
 // This process continues until i = 20.
 // To find the final value of total, we can sum all the integers from 1 to 20 and then add this sum to the initial value of total.
 
+// For Loop Exercise: 3
+// for (let i = 20; i >= 1; i--) {
+//         console.log(i);
+//       }
+
+// Print all even numbers from 1 to 40 but not the number who are divisible by 5 using a for loop
+// For Loop Exercise: 4
+// for (let i = 2; i <= 40; i += 2) {
+//         if (i % 5 !== 0) {
+//           console.log(i);
+//         }
+//       }
+
 // Practice: 3
 // let i;
 // for (i = 1; i <= 40; i++) {
-//     if (i % 2 === 0) {
+//     if (i % 3 === 5) {
 //         break;
 //     }
 // }
 // console.log(i); // Logs 2, as the loop breaks on the first even number
 
-// Practice: 10
+// For Loop Exercise: 1
 // for (let i = 1; i <= 100; i++) {
 //     if (i === 50) {
 //         console.log ("half way there!");
@@ -167,46 +180,38 @@
 // }
 // console.log("All done!");
 
-// Practice: 11
-
+// For Loop Exercise: 2
 // const n = 4
-
 // for (let i =1; i<=10; i++) {
-//     console.log(n + " * " + i + " =" + n * i);
+//     console.log(n + " * " + i + " = " + n * i);
 // }
 
-
-// Practice: 12
-
+// While Loop Exercise: 01
 // let i = 1;
-
 // while (i <= 10) {
 //     console.log(i);
 //     i++;
 // }
 
-
-// Practice: 13
-
-// prompt ("Please Input a number")
-
-// let name = "Fahad";
-
+// Practice: 04
+// let firstname = "Fahad";
 // if (false == 0) {
 //   console.log(true);
 // } else {
 //   console.log(false);
 // }
-
-// if (name !== "Ali") {
+// if (firstname !== "Ali") {
 //   console.log("we did not find any name");
 // } else {
 //   console.log("ali");
 // }
 
+// prompt ("Please Input a number") // prompt function is not built-in within Node.js environments. The prompt function is typically used in browser contexts to interact with the user through a pop-up dialog box.
+
+
+// Practice: 05
 // const isLoggedIn = false;
 // const isProSubscriber = false;
-
 // if (!isLoggedIn) {
 //   console.log("please login first");
 // } else if (isLoggedIn && !isProSubscriber) {
@@ -215,20 +220,15 @@
 //   console.log("thanks for subscribing");
 // }
 
+// Practice: 06
 // const totalMarks = 300;
-
 // const englishMarks = 75;
 // const mathsMarks = 92;
 // const physicsMarks = 80;
-
 // const passingPercentage = 70;
-
 // const obtainedMarks = englishMarks + mathsMarks + physicsMarks;
-
 // const obtainedPercentage = (obtainedMarks / totalMarks) * 100;
-
 // console.log("obtainedPercentage", obtainedPercentage);
-
 // if (obtainedPercentage >= 80 && obtainedPercentage < 90) {
 //   console.log("B grade");
 // } else if (obtainedPercentage >= 90) {
@@ -241,55 +241,57 @@
 //   console.log("F grade");
 // }
 
+// Practice: 07
 // const trafficLight = "green";
-
 // switch (trafficLight) {
 //   case "green":
 //     console.log("please move");
 //     break;
-
 //   case "red":
 //     console.log("please stop");
 //     break;
-
 //   case "yellow":
 //     console.log("get ready");
 //     break;
-
 //   default:
 //     console.log("not a valid signal");
 // }
 
+// Practice: 08
 // for (let i = 1; i <= 20; i++) {
 //   console.log(i);
 // }
 
+// Practice: 09
 // let total = 0;
-
 // for (let i = 1; i <= 10; i++) {
 //   total = total + i;
 // }
-
 // console.log(total);
 
+// Practice: 10
 // for (let i = 20; i >= 1; i--) {
 //   console.log(i);
 // }
 
+// Practice: 11
 // for (let i = 1; i <= 40; i++) {
 //   if (i === 21) {
 //     break;
 //   }
 //   console.log(i);
-//   //   console.log(i);
-//   //   if (i % 5 === 0) {
-//   //     continue;
-//   //   }
-//   //   if (i % 2 === 0) {
-//   //     console.log(i);
-//   //   }
-// }
 
+// Practice: 12
+// for (let i = 0; i < 10; i++) { // Example loop iterating 10 times
+//         if (i % 5 === 0) {
+//           continue;
+//         }
+//         if (i % 2 === 0) {
+//           console.log(i);
+//         }
+//       }
+
+// Practice: 13
 // for (let i = 1; i <= 100; i++) {
 //   if (i === 50) {
 //     console.log("half way there!");
@@ -305,17 +307,39 @@
 // }
 // console.log("All done");
 
+// Practice: 14
 // const n = 7;
-
 // for (let i = 1; i <= 10; i++) {
 //   console.log(n + " * " + i + " = " + n * i);
 // }
 
+// Practice: 15
 // let i = 1;
-
 // while (i <= 10) {
 //   console.log(i);
 //   i++;
 // }
 
-// prompt("please input a number");
+// While Loop Exercise: 01
+// let guess = 0;
+// let target = Math.floor(Math.random() * 10) + 1; // Generate general number between 1 to 10
+// while (guess !== target) {
+//         const guess = parseInt(prompt("Guess a number between 1 and 10:"));
+//         if (guess === target) {
+//                 console.log("You guessed it!");
+//         } else if (guess > target) {
+//                 console.log("Too high! Guess again.");
+//         } else {
+//                 console.log("Too high guess again.");
+//         }
+// }
+// const prompt = require('prompt-sync')({ sigint: true }); // Optional for handling interrupts
+const prompt = require('prompt-sync')({ sigint: true });
+
+function guessNumber() {
+  // Your logic to evaluate the guess here
+}
+
+guessNumber();
+
+        prompt("please input a number"); // prompt function is not built-in within Node.js environments. The prompt function is typically used in browser contexts to interact with the user through a pop-up dialog box.

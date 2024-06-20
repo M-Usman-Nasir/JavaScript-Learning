@@ -1,23 +1,30 @@
+// Escape Character in String
 // const str1 = "\"I Love Pakistan\"";
 // console.log (str1);
 
+// Escape Character Exercises
+// Exercise: 01
 // const str2 = 'Dr suggested, \'Do not drink cold water\'';
 // console.log (str2);
 
+// Exercise: 02
 // const str3 = 'C:\\Users\\Name\\Document';
 // console.log (str3);
 
+// Exercise: 03
 // const str4 = "This is line one";
 // const str5 = "      This is line two with a tab"
 // console.log (str4);
 // console.log (str5);
 
+// Template Literals [back ticks] `
 // const firstName = "Usman";
 // const lastName = "Nasir";
 // const fullName = `${firstName} ${lastName}`
 // console.log (firstName + lastName);
 // console.log (fullName);
 
+// Exercise: 04
 // const product = {
 //     name: "Laptop",
 //     price: 40000
@@ -29,6 +36,7 @@
 // const bothMerged = `${devName} ${price}`
 // console.log (bothMerged);
 
+// String Methods
 // const mes1 = "Assalam U Alaikum World";
 // console.log (mes1.toUpperCase ());
 // console.log (mes1.toLowerCase());
@@ -47,6 +55,7 @@
 // const trimMsg = email.trim ()
 // console.log (trimMsg);
 
+// String Methods Exercise: 01
 // const var1 = "We are learning JavaScript";
 // console.log (var1.split ("").reverse());
 // console.log (var1.split ("").join());
@@ -54,11 +63,11 @@
 // const result = var1.split ("").reverse().join ("")
 // console.log (result);
 
+// String Methods Exercise: 02
 // const email1 = "usmannasir98@gmail.com";
 // const email2 = "john.doe@gmail.com";
 // const email3 = "example@example.com";
 // const result = email1.split ("@")
-
 // console.log (result);
 
 // const userName = result [0]
@@ -69,6 +78,7 @@
 // 2D Array
 // const array1 = [[1, 2], [3, 4], [5, 3]]
 // console.log (array1 [1][1]);
+// console.log (array1);
 
 // const colors = ["red", "green", "blue", "white"]
 // for (let i = 0; i < colors.length; i ++) {
@@ -88,13 +98,11 @@
 //     email: "alitahir@gmail.com",
 //     phone: 923458127146
 // }
-
 // for (let key is student) {
 //     console.log (student[key]);
 // }
 
 // function declaration
-
 // function greet (name) {
 //     console.log (`Assalam U Alaikum ${name}`);
 // }
@@ -122,8 +130,8 @@
 // const totalVowels = countVowels (str)
 // console.log (totalVowels);
 
-function truncateString (str, maxLength) {
-    return str.slice (0, maxLength) + ". . ."
-}
-const result = truncateString (str, 5)
-console.log (result);
+// function truncateString (str, maxLength) {
+//     return str.slice (0, maxLength) + ". . ."
+// }
+// const result = truncateString (str, 5)
+// console.log (result);
