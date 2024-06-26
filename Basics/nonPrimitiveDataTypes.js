@@ -29,9 +29,14 @@
 // console.log (person.hobbies[1]);
 
 // _________ Functions ___________
-function greet (name) {
-    return "Hello, " + name + "!";
-  }
-  
-const message = greet("Bob");
- console.log(message); // Outputs "Hello, Bob!"
+// function greet (name) {
+//     return "Assalam-U-Alaikum, " + name + "!";
+//   }
+// const message = greet ("Usman");
+// console.log (message);
+
+// function greet () {
+//     return "Assalam-U-Alaikum, Usman";
+//   }
+// const message = greet ();
+// console.log (message);
