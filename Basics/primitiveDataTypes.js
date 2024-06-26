@@ -1,4 +1,5 @@
-// 
+// • JavaScript Syntax and Data Types (Primitives)
+// • Primitive Data Types (Stack Memory)
 
 let firstName = "Ali";
 let unassigned;

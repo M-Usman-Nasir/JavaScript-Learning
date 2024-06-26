@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 // const title = document.getElementById("title");
 // const section = document.getElementById("header");
 
@@ -79,7 +79,7 @@ const interval = setInterval(function () {
     // count++;
   }
 }, 1000);
-=======
+// =======
 // const title = document.getElementById("title");
 // const section = document.getElementById("header");
 
@@ -108,7 +108,7 @@ const interval = setInterval(function () {
 
 // forEach loop - higher order function
 
-const colors = ["red", "green", "blue", "orange"];
+// const colors = ["red", "green", "blue", "orange"];
 
 // for (let i = 0; i < colors.length; i++) {
 //   console.log(colors[i]);
@@ -129,7 +129,7 @@ const colors = ["red", "green", "blue", "orange"];
 //   arr.push(elem);
 // });
 
-const now = new Date();
+// const now = new Date();
 // const now = new Date(1000);
 
 // console.log(now);
@@ -150,14 +150,14 @@ const now = new Date();
 
 // setInterval
 
-let count = 10;
+// let count = 10;
 
-const interval = setInterval(function () {
+// const interval = setInterval(function () {
   if (count === 15) {
     clearInterval(interval);
   } else {
     console.log((count += 1));
     // count++;
   }
-}, 1000);
->>>>>>> c9d2994104ca8a7c0dbe6c3a84ce16e5579c008a
+// }, 1000);
+// >>>>>>> c9d2994104ca8a7c0dbe6c3a84ce16e5579c008a

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 const addBtn = document.querySelector('#add-todo-button')
 const taskInput = document.querySelector('.todo-input')
 const taskList = document.querySelector('#todo-list')
@@ -122,10 +122,10 @@ addBtn.addEventListener('click', function () {
 // }
 
 // console.log(table)
-=======
-const addBtn = document.querySelector('#add-todo-button')
-const taskInput = document.querySelector('.todo-input')
-const taskList = document.querySelector('#todo-list')
+// =======
+// const addBtn = document.querySelector('#add-todo-button')
+// const taskInput = document.querySelector('.todo-input')
+// const taskList = document.querySelector('#todo-list')
 
 addBtn.addEventListener('click', function () {
   const li = document.createElement('li')
@@ -151,10 +151,10 @@ addBtn.addEventListener('click', function () {
 
 // input.addEventListener('input', function (e) {
 //   console.log(e)
-//   //   console.log(e.target.value)
-//     // console.log(input.value)
+  //   console.log(e.target.value)
+    // console.log(input.value)
 //   para.textContent = e.target.value
-//   //   console.log(e)
+  //   console.log(e)
 // })
 
 // let display = document.querySelector('#counter')
@@ -246,4 +246,4 @@ addBtn.addEventListener('click', function () {
 // }
 
 // console.log(table)
->>>>>>> c9d2994104ca8a7c0dbe6c3a84ce16e5579c008a
+// >>>>>>> c9d2994104ca8a7c0dbe6c3a84ce16e5579c008a
