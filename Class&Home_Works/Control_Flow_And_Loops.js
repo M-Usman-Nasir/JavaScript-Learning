@@ -343,3 +343,10 @@ function guessNumber() {
 guessNumber();
 
         prompt("please input a number"); // prompt function is not built-in within Node.js environments. The prompt function is typically used in browser contexts to interact with the user through a pop-up dialog box.
+
+let age = 31;
+if (age > 31) {
+  console.log ("You are old enough to do many things!");
+} else {
+  console.log ("You are still young, but you can learn a lot!");
+}
