@@ -44,7 +44,30 @@ let c = 20;
 // c **= 2; 		        // c = c ** 2;    		// 1
 // console.log (c);
 
-// ● Exponentiation Example:
+// 3. Comparison Operators:
+
+let d = 15;
+let e = 20;
+let equal = (d == e);          		// false
+let notEqual = (d != e);       	    // true
+let strictEqual = (d === e);   	    // false
+let strictNotEqual = (d !== e); 	// true
+let greaterThan = (d > e);     	    // false
+let lessThan = (d < e);        	    // true
+let greaterOrEqual = (d >= e); 	    // false
+let lessOrEqual = (d <= e);    	    // true
+// console.log (equal);
+
+// 4. Logical Operators:
+
+let f = true;
+let g = false;
+let and = f && g; 		// false
+let or = f || g;  		// true
+let not = !f;     		// false
+// console.log (and);
+
+// ● Exponentiation:
 let base = 2;
 let exponent = 3;
 let result = base ** exponent;
